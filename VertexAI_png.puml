@@ -1,0 +1,23 @@
+' Copyright (c) 2020 David Holsgrove
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
+sprite $VertexAI_png [128x128/16z] {
+xPc7bYCh34GLGF3_F_o2rrsRwaoprGmltXCdthOa92CRmIF2RI_kjaha2zj8ZZbd-Qf-zmEq-MAuBP0NRfk8-QPM4WL_s2Rwl8Wb_-u43FZpd-u_7__pzGSE
+dBypVekQStItytu0-Ka_vxp_Vxy_pB_7uaJmFkOe_td-ZlR0xwiXyK4wRKVx4VtuPgps-k46ShxfwloDrPg0QZO3XM-gxp-IV9FIe2es_q9u__NSFvVy861w
+4lyk-yq3oPVhRxhWlq_Aygnlji-F2CJYg9qZJVK_nyCD7FM3VwuVeyR_Ahy_lNxXRpL_NjnVohtr_dQ1Dd3y9B_JLkki_MIz2DQ0k-eFUlzapvJrnWquKGd-
+fVbR5vtDdoxEFr-Tlrw0NVNODuT9zSVziUoFYQ4Wd3_zzOF4jvO891yk5fH-wTkTtwB6h3GTUYRnyhb_A_6Z7XNGNV0Bk4C40eaY_aFyC_m8db3_p_pOltR_
+fLhVuUVx7tt-QlKNv7lY_9NEN_-S-Oi1uDHFzv-YFnRwxyhypS-UlmbL4-Alpb-wVn3gx_dyXIjDFN_c454_WBwH-v-qVmLkWFXv_VFx7t0JO7x-_bj7zvjd
+Qsbsrd-QytwF35VztWSfzLRLuzTUhERtGJfT3BJapzt_yVw7RtRRqlz1zAhcVFz7XvAByu_xMxt8k_rduPkvqu_xToplVzjdtxyJgYw-VYCgkd_r0ZVxr_ob
+-tT0HRvfT_uWaKO0Kfk_VF_A_Np-riGtbQiU9kY2dy_Vs3MekFymv_t_-oCoVCMVDQffOp_yPYh5lRym_ZZPCZumk56M-rzztEeILzO50-l_D_xukDMtUhCo
+TeJx3vr_m7jT934GnwRz9s8F6ZE0KFry_Xgkww3p-0C32_lNplV_P5S2cX731pc8XVq7-Vo3nHv_GWqWRlUl_FwN0tfIUBJyU0JIoL1cdp-H3kCyzbmFw0Cy
+fnKWtMSX1oeyzit0SWvqiW2h5Zq4Uko51n169WgFnbxA0KzjqsB_F0IEzaVnpcElXC0OdHpdfKElvs3z_LzRZBsUWoYm47i3kqBW1RR67YGD0Rz_wuTUpq4Y
+jLB3VPw3neARGkoL7F3za_53hnEy5UWDztaEz66tjGprXhi_1thizHpe3NT_3lI6guT0EVIxMu67knhxvsNOn-kctvN2Uvw3cc2eiTTpqCRyXY4UUZq7qEC1
+XDZhEQXBE_00Gk798MXVdCqDDsx4_iG3VBVFpYi0pSxWFzpn-nT_s2dy-mrROEDuqZ_Y-o_ji7-UzuFlF-99xFjEKI_ZbN5Kup7Qn0EO5x9nZl5kGDSGF1T-
+f1mSFdteEG2zu709W75QZmywKOT_1T6gghT7zjy1
+}
+
+GCPEntityColoring(VertexAI_png)
+!define VertexAI_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, VertexAI_png, VertexAI_png)
+!define VertexAI_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, VertexAI_png, VertexAI_png)
+!define VertexAI_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, VertexAI_png, VertexAI_png)
+!define VertexAI_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, VertexAI_png, VertexAI_png)
