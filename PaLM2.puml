@@ -1,7 +1,7 @@
 ' Copyright (c) 2020 David Holsgrove
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
-sprite $PaLM2_png [128x128/16z] {
+sprite $PaLM2 [128x128/16z] {
 xT9N0kGc40RXpitzB-mSPwKIR3jRzJxp_O3aihUtD_qkCrFLh_uv_9OpZypwkOnmFP3DF7xDtVHiUMHzMORkuHuN-G6VTLEQFAGUTstxNlVn0lEuptRzA2eL
 paxv_lavbyiiE1kyFrm177xo0N8c7sayfJ8Qm6zW0tumOC3F1ypu-G2RlVryW8xu-O2K7_81FniGCtu-m4Hqm8y7f8WF-Fa0jn4_7p3ZvmDoniy7pFZvW1pn
 ym4vu-S3PlnyG8xu-O3y4tWrZwpkjRgxqaqjZnx0Vlw7xwhASDDztBDw_Rwk8p-p-gDAroqzkzTLtTiFK7tTywjOBgZ1P_xdqXxElhZUyAkfr5lUGOS5US5J
@@ -13,8 +13,8 @@ iyy3RCytu4zziNDVYMUV1yXc3JpwF21t_GGUVHxWkxu1ZpuFKDcjW0UV1wHiPzK5_B4lbXag1wd8gS-f
 FyzdrpyluFX_zGk4oj-Gnq-woz-JcaUugVmhUtjx-nO
 }
 
-GCPEntityColoring(PaLM2_png)
-!define PaLM2_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, PaLM2_png, PaLM2_png)
-!define PaLM2_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, PaLM2_png, PaLM2_png)
-!define PaLM2_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, PaLM2_png, PaLM2_png)
-!define PaLM2_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, PaLM2_png, PaLM2_png)
+GCPEntityColoring(PaLM2)
+!define PaLM2(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, PaLM2, PaLM2)
+!define PaLM2(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, PaLM2, PaLM2)
+!define PaLM2Participant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, PaLM2, PaLM2)
+!define PaLM2Participant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, PaLM2, PaLM2)

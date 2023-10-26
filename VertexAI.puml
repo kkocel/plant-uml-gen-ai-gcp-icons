@@ -1,7 +1,7 @@
 ' Copyright (c) 2020 David Holsgrove
 ' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 ' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/davidholsgrove/gcp-icons-for-plantuml/blob/master/LICENSE-CODE)
-sprite $VertexAI_png [128x128/16z] {
+sprite $VertexAI [128x128/16z] {
 xPc7bYCh34GLGF3_F_o2rrsRwaoprGmltXCdthOa92CRmIF2RI_kjaha2zj8ZZbd-Qf-zmEq-MAuBP0NRfk8-QPM4WL_s2Rwl8Wb_-u43FZpd-u_7__pzGSE
 dBypVekQStItytu0-Ka_vxp_Vxy_pB_7uaJmFkOe_td-ZlR0xwiXyK4wRKVx4VtuPgps-k46ShxfwloDrPg0QZO3XM-gxp-IV9FIe2es_q9u__NSFvVy861w
 4lyk-yq3oPVhRxhWlq_Aygnlji-F2CJYg9qZJVK_nyCD7FM3VwuVeyR_Ahy_lNxXRpL_NjnVohtr_dQ1Dd3y9B_JLkki_MIz2DQ0k-eFUlzapvJrnWquKGd-
@@ -16,8 +16,8 @@ XDZhEQXBE_00Gk798MXVdCqDDsx4_iG3VBVFpYi0pSxWFzpn-nT_s2dy-mrROEDuqZ_Y-o_ji7-UzuFl
 f1mSFdteEG2zu709W75QZmywKOT_1T6gghT7zjy1
 }
 
-GCPEntityColoring(VertexAI_png)
-!define VertexAI_png(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, VertexAI_png, VertexAI_png)
-!define VertexAI_png(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, VertexAI_png, VertexAI_png)
-!define VertexAI_pngParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, VertexAI_png, VertexAI_png)
-!define VertexAI_pngParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, VertexAI_png, VertexAI_png)
+GCPEntityColoring(VertexAI)
+!define VertexAI(e_alias, e_label, e_techn) GCPEntity(e_alias, e_label, e_techn, GoogleBlue, VertexAI, VertexAI)
+!define VertexAI(e_alias, e_label, e_techn, e_descr) GCPEntity(e_alias, e_label, e_techn, e_descr, GoogleBlue, VertexAI, VertexAI)
+!define VertexAIParticipant(p_alias, p_label, p_techn) GCPParticipant(p_alias, p_label, p_techn, GoogleBlue, VertexAI, VertexAI)
+!define VertexAIParticipant(p_alias, p_label, p_techn, p_descr) GCPParticipant(p_alias, p_label, p_techn, p_descr, GoogleBlue, VertexAI, VertexAI)
